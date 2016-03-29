@@ -1,0 +1,468 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from f:\firebasetodo2\client\package.json
+5 warn package.json firebasetodo@ No repository field.
+6 warn package.json firebasetodo@ No README data
+7 warn package.json firebasetodo@ No license field.
+8 verbose install where, deps [ 'f:\\firebasetodo2\\client',
+8 verbose install   [ 'angular2',
+8 verbose install     'es6-promise',
+8 verbose install     'es6-shim',
+8 verbose install     'firebase',
+8 verbose install     'angularfire2',
+8 verbose install     'ionic-angular',
+8 verbose install     'ionicons',
+8 verbose install     'reflect-metadata',
+8 verbose install     'rxjs',
+8 verbose install     'zone.js',
+8 verbose install     'awesome-typescript-loader',
+8 verbose install     'del',
+8 verbose install     'gulp',
+8 verbose install     'gulp-watch',
+8 verbose install     'ionic-gulp-fonts-copy',
+8 verbose install     'ionic-gulp-html-copy',
+8 verbose install     'ionic-gulp-sass-build',
+8 verbose install     'ionic-gulp-webpack-build',
+8 verbose install     'strip-sourcemap-loader',
+8 verbose install     'typescript' ] ]
+9 verbose install where, peers [ 'f:\\firebasetodo2\\client', [] ]
+10 verbose installManyTop reading for lifecycle f:\firebasetodo2\client\package.json
+11 info preinstall firebasetodo@
+12 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\angular2\package.json
+13 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\awesome-typescript-loader\package.json
+14 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\del\package.json
+15 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\es6-promise\package.json
+16 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\es6-shim\package.json
+17 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\firebase\package.json
+18 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\gulp\package.json
+19 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\gulp-watch\package.json
+20 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\ionic-angular\package.json
+21 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\ionic-gulp-fonts-copy\package.json
+22 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\ionic-gulp-html-copy\package.json
+23 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\ionic-gulp-sass-build\package.json
+24 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\ionic-gulp-webpack-build\package.json
+25 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\ionicons\package.json
+26 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\reflect-metadata\package.json
+27 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\rxjs\package.json
+28 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\strip-sourcemap-loader\package.json
+29 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\typescript\package.json
+30 verbose installManyTop reading scoped package data from f:\firebasetodo2\client\node_modules\zone.js\package.json
+31 info package.json firebase@2.4.2 No license field.
+32 info package.json ionic-gulp-fonts-copy@1.0.0 No repository field.
+33 info package.json ionic-gulp-fonts-copy@1.0.0 No license field.
+34 info package.json strip-sourcemap-loader@0.0.1 No repository field.
+35 verbose readDependencies loading dependencies from f:\firebasetodo2\client\package.json
+36 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\angular2\package.json
+37 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\awesome-typescript-loader\package.json
+38 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\del\package.json
+39 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\es6-promise\package.json
+40 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\es6-shim\package.json
+41 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\firebase\package.json
+42 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\gulp\package.json
+43 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\gulp-watch\package.json
+44 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\ionic-angular\package.json
+45 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\ionic-gulp-fonts-copy\package.json
+46 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\ionic-gulp-html-copy\package.json
+47 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\ionic-gulp-sass-build\package.json
+48 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\ionic-gulp-webpack-build\package.json
+49 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\ionicons\package.json
+50 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\reflect-metadata\package.json
+51 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\rxjs\package.json
+52 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\strip-sourcemap-loader\package.json
+53 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\typescript\package.json
+54 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\zone.js\package.json
+55 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\.bin\gulp\package.json
+56 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\.bin\gulp.cmd\package.json
+57 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\.bin\tsc\package.json
+58 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\.bin\tsc.cmd\package.json
+59 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\.bin\tsserver\package.json
+60 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\.bin\tsserver.cmd\package.json
+61 verbose already installed skipping ionic-angular@2.0.0-beta.3 f:\firebasetodo2\client
+62 verbose already installed skipping ionicons@3.0.0-alpha.3 f:\firebasetodo2\client
+63 verbose already installed skipping reflect-metadata@0.1.2 f:\firebasetodo2\client
+64 verbose already installed skipping rxjs@5.0.0-beta.0 f:\firebasetodo2\client
+65 verbose already installed skipping zone.js@0.5.14 f:\firebasetodo2\client
+66 verbose already installed skipping awesome-typescript-loader@0.15.10 f:\firebasetodo2\client
+67 verbose already installed skipping del@2.2.0 f:\firebasetodo2\client
+68 verbose already installed skipping gulp@3.9.1 f:\firebasetodo2\client
+69 verbose already installed skipping gulp-watch@4.3.5 f:\firebasetodo2\client
+70 verbose already installed skipping ionic-gulp-fonts-copy@^1.0.0 f:\firebasetodo2\client
+71 verbose already installed skipping ionic-gulp-html-copy@^1.0.0 f:\firebasetodo2\client
+72 verbose already installed skipping ionic-gulp-sass-build@^1.0.0 f:\firebasetodo2\client
+73 verbose already installed skipping ionic-gulp-webpack-build@^1.0.0 f:\firebasetodo2\client
+74 verbose already installed skipping strip-sourcemap-loader@0.0.1 f:\firebasetodo2\client
+75 verbose already installed skipping typescript@1.8.7 f:\firebasetodo2\client
+76 verbose already installed skipping angular2@2.0.0-beta.6 f:\firebasetodo2\client
+77 verbose already installed skipping es6-shim@0.33.13 f:\firebasetodo2\client
+78 verbose already installed skipping es6-promise@3.0.2 f:\firebasetodo2\client
+79 verbose already installed skipping firebase@^2.4.2 f:\firebasetodo2\client
+80 silly cache add args [ 'angularfire2@^2.0.0-alpha.13', null ]
+81 verbose cache add spec angularfire2@^2.0.0-alpha.13
+82 silly cache add parsed spec { raw: 'angularfire2@^2.0.0-alpha.13',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'angularfire2',
+82 silly cache add   rawSpec: '^2.0.0-alpha.13',
+82 silly cache add   spec: '>=2.0.0-alpha.13 <3.0.0',
+82 silly cache add   type: 'range' }
+83 silly addNamed angularfire2@>=2.0.0-alpha.13 <3.0.0
+84 verbose addNamed ">=2.0.0-alpha.13 <3.0.0" is a valid semver range for angularfire2
+85 silly addNameRange { name: 'angularfire2',
+85 silly addNameRange   range: '>=2.0.0-alpha.13 <3.0.0',
+85 silly addNameRange   hasData: false }
+86 silly mapToRegistry name angularfire2
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/angularfire2
+90 verbose addNameRange registry:https://registry.npmjs.org/angularfire2 not in flight; fetching
+91 verbose request uri https://registry.npmjs.org/angularfire2
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 6:53:51 PM
+94 verbose request id c979fbb72fde64a6
+95 verbose etag "1Z0RT9GE915XD551XJSN9K3GW"
+96 http request GET https://registry.npmjs.org/angularfire2
+97 http 304 https://registry.npmjs.org/angularfire2
+98 silly get cb [ 304,
+98 silly get   { date: 'Tue, 29 Mar 2016 13:53:54 GMT',
+98 silly get     via: '1.1 varnish',
+98 silly get     'cache-control': 'max-age=300',
+98 silly get     etag: '"1Z0RT9GE915XD551XJSN9K3GW"',
+98 silly get     age: '0',
+98 silly get     connection: 'keep-alive',
+98 silly get     'x-served-by': 'cache-ams4121-AMS',
+98 silly get     'x-cache': 'MISS',
+98 silly get     'x-cache-hits': '0',
+98 silly get     'x-timer': 'S1459259634.410530,VS0,VE805',
+98 silly get     vary: 'Accept' } ]
+99 verbose etag https://registry.npmjs.org/angularfire2 from cache
+100 verbose get saving angularfire2 to C:\Users\SarahN\AppData\Roaming\npm-cache\registry.npmjs.org\angularfire2\.cache.json
+101 silly addNameRange number 2 { name: 'angularfire2',
+101 silly addNameRange   range: '>=2.0.0-alpha.13 <3.0.0',
+101 silly addNameRange   hasData: true }
+102 silly addNameRange versions [ 'angularfire2',
+102 silly addNameRange   [ '2.0.0-alpha.1',
+102 silly addNameRange     '2.0.0-alpha.2',
+102 silly addNameRange     '2.0.0-alpha.3',
+102 silly addNameRange     '2.0.0-alpha.4',
+102 silly addNameRange     '2.0.0-alpha.5',
+102 silly addNameRange     '2.0.0-alpha.6',
+102 silly addNameRange     '2.0.0-alpha.7',
+102 silly addNameRange     '2.0.0-alpha.8',
+102 silly addNameRange     '2.0.0-alpha.9',
+102 silly addNameRange     '2.0.0-alpha.10',
+102 silly addNameRange     '2.0.0-alpha.11',
+102 silly addNameRange     '2.0.0-alpha.12',
+102 silly addNameRange     '2.0.0-alpha.13' ] ]
+103 silly addNamed angularfire2@2.0.0-alpha.13
+104 verbose addNamed "2.0.0-alpha.13" is a plain semver version for angularfire2
+105 silly mapToRegistry name angularfire2
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry uri https://registry.npmjs.org/angularfire2
+109 verbose addRemoteTarball https://registry.npmjs.org/angularfire2/-/angularfire2-2.0.0-alpha.13.tgz not in flight; adding
+110 verbose addRemoteTarball [ 'https://registry.npmjs.org/angularfire2/-/angularfire2-2.0.0-alpha.13.tgz',
+110 verbose addRemoteTarball   '3a8cdf6962e9a753bfc7074c95c31bb4908abbf4' ]
+111 info retry fetch attempt 1 at 6:53:53 PM
+112 info attempt registry request try #1 at 6:53:53 PM
+113 http fetch GET https://registry.npmjs.org/angularfire2/-/angularfire2-2.0.0-alpha.13.tgz
+114 http fetch 200 https://registry.npmjs.org/angularfire2/-/angularfire2-2.0.0-alpha.13.tgz
+115 silly fetchAndShaCheck shasum 3a8cdf6962e9a753bfc7074c95c31bb4908abbf4
+116 verbose addTmpTarball C:\Users\SarahN\AppData\Local\Temp\npm-8888-6192bf0d\registry.npmjs.org\angularfire2\-\angularfire2-2.0.0-alpha.13.tgz not in flight; adding
+117 verbose addTmpTarball already have metadata; skipping unpack for angularfire2@2.0.0-alpha.13
+118 silly cache afterAdd angularfire2@2.0.0-alpha.13
+119 verbose afterAdd C:\Users\SarahN\AppData\Roaming\npm-cache\angularfire2\2.0.0-alpha.13\package\package.json not in flight; writing
+120 verbose afterAdd C:\Users\SarahN\AppData\Roaming\npm-cache\angularfire2\2.0.0-alpha.13\package\package.json written
+121 silly install resolved [ { name: 'angularfire2',
+121 silly install resolved     version: '2.0.0-alpha.13',
+121 silly install resolved     description: '[![Build Status](https://travis-ci.org/angular/angularfire2.svg?branch=master)](https://travis-ci.org/angular/angularfire2)',
+121 silly install resolved     main: 'angularfire2.js',
+121 silly install resolved     scripts:
+121 silly install resolved      { test: 'npm run build; karma start',
+121 silly install resolved        docs: 'typedoc --out docs/api/ --module commonjs --mode modules --name AngularFire2 src',
+121 silly install resolved        build: 'rm -rf dist; tsc && cp package.json README.md LICENSE .npmignore dist/',
+121 silly install resolved        postbuild: 'node tools/rewrite-published-package.js',
+121 silly install resolved        build_bundle: 'cp -r src angularfire2 && tsc typings/main.d.ts angularfire2.ts --rootDir . --module system -t es5 --outFile dist/bundles/angularfire2.js  --moduleResolution node --emitDecoratorMetadata --experimentalDecorators' },
+121 silly install resolved     keywords: [ 'angular2', 'angular', 'firebase' ],
+121 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/angular/indy.git' },
+121 silly install resolved     author: { name: 'jeffbcross' },
+121 silly install resolved     license: 'MIT',
+121 silly install resolved     bugs: { url: 'https://github.com/angular/indy/issues' },
+121 silly install resolved     homepage: 'https://github.com/angular/indy#readme',
+121 silly install resolved     devDependencies:
+121 silly install resolved      { 'es6-module-loader': '^0.17.10',
+121 silly install resolved        'es6-shim': '^0.33.13',
+121 silly install resolved        'firebase-server': '^0.5.2',
+121 silly install resolved        gulp: '^3.9.0',
+121 silly install resolved        'gulp-jasmine': '^2.2.1',
+121 silly install resolved        'gulp-typescript': '^2.10.0',
+121 silly install resolved        'http-server': '^0.8.5',
+121 silly install resolved        jasmine: '^2.4.1',
+121 silly install resolved        'jasmine-core': '^2.4.1',
+121 silly install resolved        json: '^9.0.3',
+121 silly install resolved        karma: '^0.13.19',
+121 silly install resolved        'karma-chrome-launcher': '^0.2.2',
+121 silly install resolved        'karma-firefox-launcher': '^0.1.7',
+121 silly install resolved        'karma-jasmine': '^0.3.6',
+121 silly install resolved        'karma-systemjs': '^0.10.0',
+121 silly install resolved        'mock-promises': '0.6.0',
+121 silly install resolved        parse5: '^1.3.2',
+121 silly install resolved        protractor: '3.0.0',
+121 silly install resolved        'reflect-metadata': '0.1.2',
+121 silly install resolved        systemjs: '^0.19.16',
+121 silly install resolved        'systemjs-builder': '^0.15.7',
+121 silly install resolved        traceur: '0.0.96',
+121 silly install resolved        tsd: '^0.6.5',
+121 silly install resolved        typedoc: 'github:jeffbcross/typedoc',
+121 silly install resolved        typescript: '1.7.5',
+121 silly install resolved        typings: '^0.6.2',
+121 silly install resolved        'zone.js': '0.5.15' },
+121 silly install resolved     typings: 'angularfire2.d.ts',
+121 silly install resolved     peerDependencies:
+121 silly install resolved      { angular2: '2.0.0-beta.7',
+121 silly install resolved        firebase: '2.4.1',
+121 silly install resolved        rxjs: '5.0.0-beta.2' },
+121 silly install resolved     _id: 'angularfire2@2.0.0-alpha.13',
+121 silly install resolved     _shasum: '3a8cdf6962e9a753bfc7074c95c31bb4908abbf4',
+121 silly install resolved     _from: 'angularfire2@>=2.0.0-alpha.13 <3.0.0',
+121 silly install resolved     _resolved: 'https://registry.npmjs.org/angularfire2/-/angularfire2-2.0.0-alpha.13.tgz',
+121 silly install resolved     _npmVersion: '3.6.0',
+121 silly install resolved     _nodeVersion: '5.5.0',
+121 silly install resolved     _npmUser: { name: 'jeffbcross', email: 'middlefloor@gmail.com' },
+121 silly install resolved     dist:
+121 silly install resolved      { shasum: '3a8cdf6962e9a753bfc7074c95c31bb4908abbf4',
+121 silly install resolved        tarball: 'http://registry.npmjs.org/angularfire2/-/angularfire2-2.0.0-alpha.13.tgz' },
+121 silly install resolved     maintainers: [ [Object], [Object] ],
+121 silly install resolved     _npmOperationalInternal:
+121 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+121 silly install resolved        tmp: 'tmp/angularfire2-2.0.0-alpha.13.tgz_1458715021600_0.922012761933729' },
+121 silly install resolved     directories: {} } ]
+122 info install angularfire2@2.0.0-alpha.13 into f:\firebasetodo2\client
+123 info installOne angularfire2@2.0.0-alpha.13
+124 verbose installOne of angularfire2 to f:\firebasetodo2\client not in flight; installing
+125 verbose lock using C:\Users\SarahN\AppData\Roaming\npm-cache\_locks\angularfire2-b2ff18db30296b71.lock for f:\firebasetodo2\client\node_modules\angularfire2
+126 silly install write writing angularfire2 2.0.0-alpha.13 to f:\firebasetodo2\client\node_modules\angularfire2
+127 verbose unbuild node_modules\angularfire2
+128 silly gentlyRm f:\firebasetodo2\client\node_modules\angularfire2 is being purged from base f:\firebasetodo2\client
+129 verbose gentlyRm don't care about contents; nuking f:\firebasetodo2\client\node_modules\angularfire2
+130 verbose tar unpack C:\Users\SarahN\AppData\Roaming\npm-cache\angularfire2\2.0.0-alpha.13\package.tgz
+131 verbose tar unpacking to f:\firebasetodo2\client\node_modules\angularfire2
+132 silly gentlyRm f:\firebasetodo2\client\node_modules\angularfire2 is being purged
+133 verbose gentlyRm don't care about contents; nuking f:\firebasetodo2\client\node_modules\angularfire2
+134 silly gunzTarPerm modes [ '777', '666' ]
+135 silly gunzTarPerm extractEntry package.json
+136 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+137 silly gunzTarPerm extractEntry .npmignore
+138 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+139 silly gunzTarPerm extractEntry README.md
+140 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+141 silly gunzTarPerm extractEntry LICENSE
+142 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+143 silly gunzTarPerm extractEntry angularfire2.js
+144 silly gunzTarPerm modified mode [ 'angularfire2.js', 420, 438 ]
+145 silly gunzTarPerm extractEntry angularfire2_worker_app.js
+146 silly gunzTarPerm modified mode [ 'angularfire2_worker_app.js', 420, 438 ]
+147 silly gunzTarPerm extractEntry angularfire2_worker_render.js
+148 silly gunzTarPerm modified mode [ 'angularfire2_worker_render.js', 420, 438 ]
+149 silly gunzTarPerm extractEntry tokens.js
+150 silly gunzTarPerm modified mode [ 'tokens.js', 420, 438 ]
+151 silly gunzTarPerm extractEntry angularfire2_worker_app.js.map
+152 silly gunzTarPerm modified mode [ 'angularfire2_worker_app.js.map', 420, 438 ]
+153 silly gunzTarPerm extractEntry utils/firebase_list_factory.js
+154 silly gunzTarPerm modified mode [ 'utils/firebase_list_factory.js', 420, 438 ]
+155 silly gunzTarPerm extractEntry utils/firebase_list_observable.js
+156 silly gunzTarPerm modified mode [ 'utils/firebase_list_observable.js', 420, 438 ]
+157 silly gunzTarPerm extractEntry utils/absolute_path_resolver.js
+158 silly gunzTarPerm modified mode [ 'utils/absolute_path_resolver.js', 420, 438 ]
+159 silly gunzTarPerm extractEntry utils/firebase_object_factory.js
+160 silly gunzTarPerm modified mode [ 'utils/firebase_object_factory.js', 420, 438 ]
+161 silly gunzTarPerm extractEntry utils/firebase_object_observable.js
+162 silly gunzTarPerm modified mode [ 'utils/firebase_object_observable.js', 420, 438 ]
+163 silly gunzTarPerm extractEntry utils/utils.js
+164 silly gunzTarPerm modified mode [ 'utils/utils.js', 420, 438 ]
+165 silly gunzTarPerm extractEntry utils/firebase_object_factory.d.ts
+166 silly gunzTarPerm modified mode [ 'utils/firebase_object_factory.d.ts', 420, 438 ]
+167 silly gunzTarPerm extractEntry utils/absolute_path_resolver.js.map
+168 silly gunzTarPerm modified mode [ 'utils/absolute_path_resolver.js.map', 420, 438 ]
+169 silly gunzTarPerm extractEntry utils/firebase_list_observable.js.map
+170 silly gunzTarPerm modified mode [ 'utils/firebase_list_observable.js.map', 420, 438 ]
+171 silly gunzTarPerm extractEntry utils/firebase_list_factory.d.ts
+172 silly gunzTarPerm modified mode [ 'utils/firebase_list_factory.d.ts', 420, 438 ]
+173 silly gunzTarPerm extractEntry utils/absolute_path_resolver.d.ts
+174 silly gunzTarPerm modified mode [ 'utils/absolute_path_resolver.d.ts', 420, 438 ]
+175 silly gunzTarPerm extractEntry utils/firebase_object_factory.js.map
+176 silly gunzTarPerm modified mode [ 'utils/firebase_object_factory.js.map', 420, 438 ]
+177 silly gunzTarPerm extractEntry utils/firebase_object_observable.d.ts
+178 silly gunzTarPerm modified mode [ 'utils/firebase_object_observable.d.ts', 420, 438 ]
+179 silly gunzTarPerm extractEntry utils/firebase_list_factory.js.map
+180 silly gunzTarPerm modified mode [ 'utils/firebase_list_factory.js.map', 420, 438 ]
+181 silly gunzTarPerm extractEntry utils/firebase_object_observable.js.map
+182 silly gunzTarPerm modified mode [ 'utils/firebase_object_observable.js.map', 420, 438 ]
+183 silly gunzTarPerm extractEntry utils/utils.d.ts
+184 silly gunzTarPerm modified mode [ 'utils/utils.d.ts', 420, 438 ]
+185 silly gunzTarPerm extractEntry utils/firebase_list_observable.d.ts
+186 silly gunzTarPerm modified mode [ 'utils/firebase_list_observable.d.ts', 420, 438 ]
+187 silly gunzTarPerm extractEntry utils/utils.js.map
+188 silly gunzTarPerm modified mode [ 'utils/utils.js.map', 420, 438 ]
+189 silly gunzTarPerm extractEntry angularfire2.js.map
+190 silly gunzTarPerm modified mode [ 'angularfire2.js.map', 420, 438 ]
+191 silly gunzTarPerm extractEntry angularfire2_worker_render.js.map
+192 silly gunzTarPerm modified mode [ 'angularfire2_worker_render.js.map', 420, 438 ]
+193 silly gunzTarPerm extractEntry angularfire2_worker_app.d.ts
+194 silly gunzTarPerm modified mode [ 'angularfire2_worker_app.d.ts', 420, 438 ]
+195 silly gunzTarPerm extractEntry providers/auth.js
+196 silly gunzTarPerm modified mode [ 'providers/auth.js', 420, 438 ]
+197 silly gunzTarPerm extractEntry providers/auth_backend.js
+198 silly gunzTarPerm modified mode [ 'providers/auth_backend.js', 420, 438 ]
+199 silly gunzTarPerm extractEntry providers/firebase_sdk_auth_backend.js
+200 silly gunzTarPerm modified mode [ 'providers/firebase_sdk_auth_backend.js', 420, 438 ]
+201 silly gunzTarPerm extractEntry providers/auth.d.ts
+202 silly gunzTarPerm modified mode [ 'providers/auth.d.ts', 420, 438 ]
+203 silly gunzTarPerm extractEntry providers/auth.js.map
+204 silly gunzTarPerm modified mode [ 'providers/auth.js.map', 420, 438 ]
+205 silly gunzTarPerm extractEntry providers/auth_backend.d.ts
+206 silly gunzTarPerm modified mode [ 'providers/auth_backend.d.ts', 420, 438 ]
+207 silly gunzTarPerm extractEntry providers/auth_backend.js.map
+208 silly gunzTarPerm modified mode [ 'providers/auth_backend.js.map', 420, 438 ]
+209 silly gunzTarPerm extractEntry providers/firebase_sdk_auth_backend.d.ts
+210 silly gunzTarPerm modified mode [ 'providers/firebase_sdk_auth_backend.d.ts', 420, 438 ]
+211 silly gunzTarPerm extractEntry providers/firebase_sdk_auth_backend.js.map
+212 silly gunzTarPerm modified mode [ 'providers/firebase_sdk_auth_backend.js.map', 420, 438 ]
+213 silly gunzTarPerm extractEntry providers/web_workers/shared/channels.js
+214 silly gunzTarPerm modified mode [ 'providers/web_workers/shared/channels.js', 420, 438 ]
+215 silly gunzTarPerm extractEntry providers/web_workers/shared/channels.d.ts
+216 silly gunzTarPerm modified mode [ 'providers/web_workers/shared/channels.d.ts', 420, 438 ]
+217 silly gunzTarPerm extractEntry providers/web_workers/shared/channels.js.map
+218 silly gunzTarPerm modified mode [ 'providers/web_workers/shared/channels.js.map', 420, 438 ]
+219 silly gunzTarPerm extractEntry providers/web_workers/ui/auth.js
+220 silly gunzTarPerm modified mode [ 'providers/web_workers/ui/auth.js', 420, 438 ]
+221 silly gunzTarPerm extractEntry providers/web_workers/ui/auth.d.ts
+222 silly gunzTarPerm modified mode [ 'providers/web_workers/ui/auth.d.ts', 420, 438 ]
+223 silly gunzTarPerm extractEntry providers/web_workers/ui/auth.js.map
+224 silly gunzTarPerm modified mode [ 'providers/web_workers/ui/auth.js.map', 420, 438 ]
+225 silly gunzTarPerm extractEntry providers/web_workers/worker/auth.js
+226 silly gunzTarPerm modified mode [ 'providers/web_workers/worker/auth.js', 420, 438 ]
+227 silly gunzTarPerm extractEntry providers/web_workers/worker/auth.d.ts
+228 silly gunzTarPerm modified mode [ 'providers/web_workers/worker/auth.d.ts', 420, 438 ]
+229 silly gunzTarPerm extractEntry providers/web_workers/worker/auth.js.map
+230 silly gunzTarPerm modified mode [ 'providers/web_workers/worker/auth.js.map', 420, 438 ]
+231 silly gunzTarPerm extractEntry tokens.d.ts
+232 silly gunzTarPerm modified mode [ 'tokens.d.ts', 420, 438 ]
+233 silly gunzTarPerm extractEntry angularfire2.d.ts
+234 silly gunzTarPerm modified mode [ 'angularfire2.d.ts', 420, 438 ]
+235 silly gunzTarPerm extractEntry tokens.js.map
+236 silly gunzTarPerm modified mode [ 'tokens.js.map', 420, 438 ]
+237 silly gunzTarPerm extractEntry angularfire2_worker_render.d.ts
+238 silly gunzTarPerm modified mode [ 'angularfire2_worker_render.d.ts', 420, 438 ]
+239 verbose write writing to f:\firebasetodo2\client\node_modules\angularfire2\package.json
+240 info preinstall angularfire2@2.0.0-alpha.13
+241 verbose readDependencies loading dependencies from f:\firebasetodo2\client\node_modules\angularfire2\package.json
+242 silly prepareForInstallMany adding angular2@2.0.0-beta.7 from angularfire2 peerDependencies
+243 silly prepareForInstallMany adding firebase@2.4.1 from angularfire2 peerDependencies
+244 silly prepareForInstallMany adding rxjs@5.0.0-beta.2 from angularfire2 peerDependencies
+245 warn peerDependencies The peer dependency angular2@2.0.0-beta.7 included from angularfire2 will no
+246 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+247 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+248 warn peerDependencies The peer dependency firebase@2.4.1 included from angularfire2 will no
+249 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+250 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+251 warn peerDependencies The peer dependency rxjs@5.0.0-beta.2 included from angularfire2 will no
+252 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+253 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+254 verbose readDependencies loading dependencies from f:\firebasetodo2\client\node_modules\angularfire2\package.json
+255 silly install resolved []
+256 verbose about to build f:\firebasetodo2\client\node_modules\angularfire2
+257 info build f:\firebasetodo2\client\node_modules\angularfire2
+258 info linkStuff angularfire2@2.0.0-alpha.13
+259 silly linkStuff angularfire2@2.0.0-alpha.13 has f:\firebasetodo2\client\node_modules as its parent node_modules
+260 verbose linkBins angularfire2@2.0.0-alpha.13
+261 verbose linkMans angularfire2@2.0.0-alpha.13
+262 verbose rebuildBundles angularfire2@2.0.0-alpha.13
+263 info install angularfire2@2.0.0-alpha.13
+264 info postinstall angularfire2@2.0.0-alpha.13
+265 verbose readDependencies loading dependencies from f:\firebasetodo2\client\package.json
+266 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\angular2\package.json
+267 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\angularfire2\package.json
+268 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\awesome-typescript-loader\package.json
+269 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\del\package.json
+270 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\es6-promise\package.json
+271 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\es6-shim\package.json
+272 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\firebase\package.json
+273 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\gulp\package.json
+274 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\gulp-watch\package.json
+275 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\ionic-angular\package.json
+276 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\ionic-gulp-fonts-copy\package.json
+277 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\ionic-gulp-html-copy\package.json
+278 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\ionic-gulp-sass-build\package.json
+279 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\ionic-gulp-webpack-build\package.json
+280 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\ionicons\package.json
+281 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\reflect-metadata\package.json
+282 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\rxjs\package.json
+283 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\strip-sourcemap-loader\package.json
+284 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\typescript\package.json
+285 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\zone.js\package.json
+286 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\.bin\gulp\package.json
+287 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\.bin\gulp.cmd\package.json
+288 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\.bin\tsc\package.json
+289 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\.bin\tsc.cmd\package.json
+290 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\.bin\tsserver\package.json
+291 verbose targetResolver reading package data from f:\firebasetodo2\client\node_modules\.bin\tsserver.cmd\package.json
+292 verbose already installed skipping angular2@2.0.0-beta.7 f:\firebasetodo2\client
+293 verbose already installed skipping firebase@2.4.1 f:\firebasetodo2\client
+294 verbose already installed skipping rxjs@5.0.0-beta.2 f:\firebasetodo2\client
+295 silly install resolved []
+296 verbose unlock done using C:\Users\SarahN\AppData\Roaming\npm-cache\_locks\angularfire2-b2ff18db30296b71.lock for f:\firebasetodo2\client\node_modules\angularfire2
+297 info build f:\firebasetodo2\client
+298 info linkStuff firebasetodo@
+299 silly linkStuff firebasetodo@ has f:\firebasetodo2 as its parent node_modules
+300 verbose linkBins firebasetodo@
+301 verbose linkMans firebasetodo@
+302 verbose rebuildBundles firebasetodo@
+303 verbose rebuildBundles [ '.bin',
+303 verbose rebuildBundles   'angular2',
+303 verbose rebuildBundles   'angularfire2',
+303 verbose rebuildBundles   'awesome-typescript-loader',
+303 verbose rebuildBundles   'del',
+303 verbose rebuildBundles   'es6-promise',
+303 verbose rebuildBundles   'es6-shim',
+303 verbose rebuildBundles   'firebase',
+303 verbose rebuildBundles   'gulp',
+303 verbose rebuildBundles   'gulp-watch',
+303 verbose rebuildBundles   'ionic-angular',
+303 verbose rebuildBundles   'ionic-gulp-fonts-copy',
+303 verbose rebuildBundles   'ionic-gulp-html-copy',
+303 verbose rebuildBundles   'ionic-gulp-sass-build',
+303 verbose rebuildBundles   'ionic-gulp-webpack-build',
+303 verbose rebuildBundles   'ionicons',
+303 verbose rebuildBundles   'reflect-metadata',
+303 verbose rebuildBundles   'rxjs',
+303 verbose rebuildBundles   'strip-sourcemap-loader',
+303 verbose rebuildBundles   'typescript',
+303 verbose rebuildBundles   'zone.js' ]
+304 info install firebasetodo@
+305 info postinstall firebasetodo@
+306 info prepublish firebasetodo@
+307 verbose validateInstall loading f:\firebasetodo2\client\package.json for validation
+308 verbose stack Error: The package angular2 does not satisfy its siblings' peerDependencies requirements!
+308 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+308 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:267:7
+308 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:138:5
+308 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+308 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+308 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+308 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+308 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+308 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+308 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+309 verbose cwd f:\firebasetodo2\client
+310 error Windows_NT 6.3.9600
+311 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+312 error node v0.12.7
+313 error npm  v2.11.3
+314 error code EPEERINVALID
+315 error peerinvalid The package angular2 does not satisfy its siblings' peerDependencies requirements!
+315 error peerinvalid Peer angularfire2@2.0.0-alpha.13 wants angular2@2.0.0-beta.7
+315 error peerinvalid Peer ionic-angular@2.0.0-beta.3 wants angular2@^2.0.0-beta.6
+316 verbose exit [ 1, true ]
